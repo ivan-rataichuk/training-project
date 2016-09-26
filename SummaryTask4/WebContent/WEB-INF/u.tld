@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<taglib version="2.0" xmlns="http://java.sun.com/xml/ns/j2ee"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://java.sun.com/xml/ns/j2ee http://java.sun.com/xml/ns/j2ee/web-jsptaglibrary_2_0.xsd">
+	<tlib-version>2.0</tlib-version>
+	<short-name>u</short-name>
+	<uri>http://nure.ua/rataichuk/SummaryTask4/u</uri>
+	
+	<!-- User defined tag -->
+	<tag>
+		<name>loc</name>
+		<tag-class>ua.nure.rataichuk.SummaryTask4.tags.LocTag</tag-class>
+		<body-content>empty</body-content>
+		<attribute>
+			<name>str</name>
+			<required>true</required>		
+		</attribute>
+	</tag>
+	
+	<tag>
+		<name>showFacultys</name>
+		<tag-class>ua.nure.rataichuk.SummaryTask4.tags.ShowFacultys</tag-class>
+		<body-content>empty</body-content>
+	
+	</tag>
+	
+	<tag>
+		<name>showFaculty</name>
+		<tag-class>ua.nure.rataichuk.SummaryTask4.tags.ShowFaculty</tag-class>
+		<body-content>empty</body-content>
+	
+	</tag>
+	
+	<tag>
+		<name>showSubjects</name>
+		<tag-class>ua.nure.rataichuk.SummaryTask4.tags.ShowSubjects</tag-class>
+		<body-content>empty</body-content>
+	
+	</tag>
+	
+	<tag>
+		<name>showEntrant</name>
+		<tag-class>ua.nure.rataichuk.SummaryTask4.tags.ShowEntrant</tag-class>
+		<body-content>empty</body-content>
+	
+	</tag>
+	
+	<tag>
+		<name>showEntrants</name>
+		<tag-class>ua.nure.rataichuk.SummaryTask4.tags.ShowEntrants</tag-class>
+		<body-content>empty</body-content>
+	
+	</tag>
+	
+	<tag>
+		<name>showRegistrations</name>
+		<tag-class>ua.nure.rataichuk.SummaryTask4.tags.ShowRegistrations</tag-class>
+		<body-content>empty</body-content>
+	
+	</tag>
+	
+	<tag>
+		<name>showReport</name>
+		<tag-class>ua.nure.rataichuk.SummaryTask4.tags.ShowReport</tag-class>
+		<body-content>empty</body-content>
+	
+	</tag>
+	
+	<tag>
+		<name>showFacultysReport</name>
+		<tag-class>ua.nure.rataichuk.SummaryTask4.tags.ShowFacultysReport</tag-class>
+		<body-content>empty</body-content>
+	
+	</tag>
+	
+	<tag>
+		<name>showCroppedRegistrations</name>
+		<tag-class>ua.nure.rataichuk.SummaryTask4.tags.ShowCroppedRegistrations</tag-class>
+		<body-content>empty</body-content>
+	
+	</tag>
+
+</taglib>

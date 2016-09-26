@@ -1,0 +1,211 @@
+#side-menu {
+	display: inline-block;
+	width: 20%;
+	vertical-align: top;
+}
+
+#main-content {
+	width: 70%;
+	display: inline-block;
+	vertical-align: top;
+	min-height: 450px;
+}
+
+#mes {
+	border: 2px solid #ff0000;
+	border-radius: 20px;
+	background-color: #ffffff;
+	width: 400px;
+	height: 200px;
+	margin-left: -200px;
+	margin-top: -100px;
+	padding: 5px; 
+	position: absolute;
+	top: 50%;
+	left: 50%;
+}
+
+#mes .close {
+	float: right;
+	margin-right: 3px;
+    margin-top: 2px;
+	border: 1px solid #ff0000;
+    padding: 1px 5px 2px 6px;
+    border-radius: 12px;
+    color: #ff0000;
+}
+
+#mes .close:hover {
+	cursor: pointer;
+	color: white;
+	background-color: #ff0000;
+}
+
+#mes div {
+	padding: 25px;
+	text-align: center;
+}
+
+.et-header, .et-info {
+	text-align: center;
+	line-height: 30px;
+	font-size: 10px;
+}
+
+.et-info form {
+	margin-bottom: 0;
+}
+
+.et-info:nth-child(2n) {
+	background-color: #3f51b5;
+	color: white;
+}
+
+.block {
+	display: inline-block;
+	width: 50px;
+}
+
+.name {
+	display: inline-block;
+	width: 200px;
+}
+
+.tel {
+	display: inline-block;
+	width: 100px;
+}
+
+.sub {
+	display: inline-block;
+	width: 60px;
+}
+
+.cert {
+	display: inline-block;
+	width: 100px;
+}
+.grades-names {
+	display: inline-block;
+	width: 140px;
+}
+
+body {
+	margin: 0;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+}
+
+#header {
+	background-color: #3f51b5;
+	padding: 30px 40px;
+	color: white;
+}
+
+#header form {
+	margin-bottom: 0;
+}
+
+#header img {
+	max-height: 60px;
+	margin-top: -20px;
+	margin-right: 20px;
+	float: left;
+}
+
+#login-form, #visitor {
+	float: right;
+}
+
+#message {
+	background-color: #3f51b5;
+	padding: 20px 0;
+	color: white;
+}
+
+#message-form {
+	width: 500px;
+	margin: 0 auto;
+	background-color: #3f51b5;
+	color: white;
+}
+
+#message input {
+	width: 100%;
+}
+
+#message textarea {
+	min-height: 100px;
+	width: 100%;
+}
+
+.center {
+	text-align: center;
+}
+
+#footer {
+	background-color: #000000;
+	color: white;
+	padding: 20px 40px;
+}
+
+#main-content {
+	padding: 30px 20px;
+}
+
+#side-menu {
+	padding: 30px 20px;
+}
+
+.submit, .button {
+	border: 1px solid #ffffff;
+	padding: 5px 20px;
+    border-radius: 15px;
+    font-size: 16px;
+    color: white;
+    background-color: #3f51b5;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.submit:hover, .button:hover {
+    color: #3f51b5;
+    background-color: #ffffff;
+    border-color: #3f51b5;
+    cursor: pointer;
+}
+
+#side-menu .submit {
+	width: 100%
+}
+
+.faculty-list {
+	border: 1px solid #3f51b5;
+	border-radius: 15px;
+	padding: 5px 20px;
+	margin-bottom: 10px;
+}
+
+.faculty-name {
+	text-align: center;
+	text-transform: uppercase;
+}
+
+.faculty-description {
+	font-style: italic;
+}
+
+.img-check img {
+	height: 30px;
+    margin-top: -6px;
+    float: right;
+}
+
+.report-entry form {
+	margin-bottom: 0;
+}
+
+.report-entry {
+	margin: 5px 0;
+	background-color: rgba(63, 81, 181, 0.24);
+	padding: 10px;
+}

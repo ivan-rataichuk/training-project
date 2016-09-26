@@ -1,0 +1,39 @@
+
+#lang-form input[type=radio]:checked ~ label{
+  border: 2px solid #ffffff;
+}
+
+#lang-form label {
+	border-radius: 10px;
+	padding: 5px;
+}
+
+#lang-form label:hover {
+	cursor: pointer;
+}
+
+#lang-form input[type=radio] {
+	display: none;
+}
+
+#lang-form span {
+	margin: 0 5px;
+}
+
+#sort-form input[type=radio]:checked ~ label{
+  border: 2px solid #3f51b5;
+}
+
+#sort-form label {
+	border-radius: 10px;
+	padding: 5px;
+	color: #3f51b5;
+}
+
+#sort-form label:hover {
+	cursor: pointer;
+}
+
+#sort-form input[type=radio] {
+	display: none;
+}

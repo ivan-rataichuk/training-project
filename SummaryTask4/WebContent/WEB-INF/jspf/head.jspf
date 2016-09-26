@@ -1,0 +1,19 @@
+<%@ include file="/WEB-INF/jspf/directive/page.jspf" %>
+<%@ include file="/WEB-INF/jspf/directive/taglib.jspf" %>
+
+<head>
+
+	<title>
+		<u:loc str="title"/>
+	</title>
+	
+	
+	<link rel="stylesheet" type="text/css" media="screen" href="css/style.css"/>
+	<link rel="stylesheet" type="text/css" media="screen" href="css/select.css"/>
+	
+	<script type="text/javascript" src="js/jquery-3.1.0.min.js" ></script>
+	<script type="text/javascript" src="js/scripts.js" ></script>
+	
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+</head>
